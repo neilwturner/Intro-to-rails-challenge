@@ -10,12 +10,6 @@ class ProductsController < ApplicationController
     end
   end
 
-  def bacon
-    @times = 100
-    @bacon = "chunky bacon"
-  end
-
-
   # GET /products/1
   # GET /products/1.json
   def show
